@@ -1,0 +1,13 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-all",
+      "type": "shell",
+      "command": "javac -cp lib/mysql-connector.jar src/*.java -d bin",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

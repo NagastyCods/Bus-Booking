@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoginFrame",
+            "request": "launch",
+            "mainClass": "LoginFrame",
+            "vmArgs": "-cp lib/mysql-connector-j-9.3.0.jar",
+            "projectName": "BUS BOOKING PROJECT_5d5b1509"
+        }
+    ]
+}
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "type": "java",
+//             "name": "Run LoginFrame",
+//             "request": "launch",
+//             "mainClass": "LoginFrame",
+//             "projectName": "BusBooking",
+//             "vmArgs": "-cp lib/mysql-connector-java-9.3.0.jar;.",
+//             "cwd": "${workspaceFolder}"
+//         }
+//     ]
+// }
